@@ -25,9 +25,12 @@ nav ul {
     padding: 0;
     margin-top: 15px;
 
+
     display: flex;
     justify-content: center;
     gap: 20px;
+
+
 }
 
 nav a {
@@ -41,7 +44,7 @@ section {
 }
 
 button {
-    background-color:  #a476e9;
+    background-color: #a476e9;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -50,7 +53,7 @@ button {
 }
 
 button:hover {
-    background-color: #a476e9;
+    background-color: #8d5fda;
 }
 
 article {
@@ -104,6 +107,7 @@ footer {
     border-radius: 8px;
 }
 
+
 @media (min-width: 768px) {
     .galeria-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -114,6 +118,33 @@ footer {
     .galeria-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+form button {
+    margin-top: 15px;
 }
 
 .dark {
@@ -127,13 +158,25 @@ footer {
 }
 
 .dark aside {
-  background-color: #CDB4DB;
+    background-color: #CDB4DB;
     color: #333;
+}
 
+.dark form {
+    background-color: #444;
+}
+
+.dark form input,
+.dark form textarea {
+    background-color: #666;
+    color: white;
+    border: 1px solid #999;
 }
 
 a:focus,
-button:focus {
+button:focus,
+input:focus,
+textarea:focus {
     outline: 3px solid #6A1B9A;
     outline-offset: 3px;
 }
