@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #a476e9;
+    background-color: #8E44AD;
     color: white;
     padding: 20px;
 }
@@ -44,7 +44,7 @@ section {
 }
 
 button {
-    background-color: #a476e9;
+    background-color: #8E44AD;
     color: white;
     border: none;
     padding: 12px 20px;
@@ -53,7 +53,7 @@ button {
 }
 
 button:hover {
-    background-color: #8d5fda;
+    background-color: #7D3C98;
 }
 
 article {
@@ -64,7 +64,8 @@ article {
 }
 
 aside {
-    background-color: #a476e9;
+    background-color: #CDB4DB;
+    color: #333;
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
@@ -177,6 +178,6 @@ a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-    outline: 3px solid #6A1B9A;
+    outline: 3px solid #FFD54F;
     outline-offset: 3px;
 }
